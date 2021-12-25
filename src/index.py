@@ -1,16 +1,6 @@
-import random
-from characterPicker import randomItemPicker
-from characters import characters
-from desiredPasswordLength import passwordLength
+import functions
 
-desiredLength = passwordLength()
+desired_length = functions.desired_password_length()
+password = functions.random_character_picker(desired_length)
 
-password = []
-
-randomItemPicker(password, desiredLength)
-
-shuffledPassword= ''.join(random.sample(password, len(password)))
-
-print('Here\'s your new password: ' + shuffledPassword)
-
-
+print('Here\'s your new password: ' + password)
