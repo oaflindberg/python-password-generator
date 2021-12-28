@@ -8,4 +8,4 @@ Just a quick test to try Python.
 
 
 ### Requirements
-- Python 3.9 (Maybe? Doesn't work with 2.7.1, but works with 3.9.9)
+- Python 3.6 or newer
